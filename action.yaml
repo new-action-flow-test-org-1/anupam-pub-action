@@ -1,0 +1,7 @@
+name: hello-world
+runs:
+  using: composite
+  steps:
+    - name: my-step
+      run: echo "Hello World!"
+      shell: bash
